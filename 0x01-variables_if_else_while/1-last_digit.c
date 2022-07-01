@@ -5,7 +5,7 @@
 
 /**
  * main - the main function
- * Retuurn: returns 0
+ * Return: returns 0
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastDigit = n % 10; is assign to a random number to the variable n each time it is executed using another if statement
+	lastDigit = n % 10;
 	printf("Last digit of %d is ", n);
 	if (lastDigit > 5)
 		printf("%d and is greater than 5\n", lastDigit);

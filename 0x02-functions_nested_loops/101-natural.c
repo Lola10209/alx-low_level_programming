@@ -9,7 +9,7 @@ int main(void)
 {
 	unsigned long int sum3, sum5, sum;
 	int i;
-
+	
 	sum3 = 0;
 	sum5 = 0;
 	sum = 0;
@@ -24,7 +24,7 @@ int main(void)
 			sum5 = sum5 + i;
 		}
 	}
-	sm = sum3 + sum5;
+	sum = sum3 + sum5;
 	printf("%lu\n", sum);
 	return (0);
 }

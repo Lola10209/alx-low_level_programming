@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strien - Returns the length of a string
+ * _strlen - Returns the length of a string
  * @s: String to count
  *
  * Return: String length
  */
-int _strien(char *s)
+int _strlen(char *s)
 {
 	int c = 0;
 

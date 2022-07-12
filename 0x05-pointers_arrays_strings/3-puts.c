@@ -2,18 +2,13 @@
 
 /**
  * _puts - prints a string
- * @str: string to be printed
- *
- * Return: void
+ * @str: string to be printed to _puts function
  */
 void _puts(char *str)
 {
-	int i = 0;
-
-	for (str[i] != '\0')
+	for (; *str != '\0' ; str++)
 	{
-		_putchar(str[i]);
-		i++;
+		_putchar(*str);
 	}
 	_putchar('\n');
 }

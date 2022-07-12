@@ -1,1 +1,1 @@
-My README for c pointers,arrays and strings
+My README for c pointers,arrays and strings.

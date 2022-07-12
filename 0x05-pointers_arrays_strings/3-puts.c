@@ -4,11 +4,13 @@
  * _puts - prints a string
  * @str: string to be printed to _puts function
  */
-void _puts(char *str)
+void _puts(char *);
+
+int main(void)
 {
-	for (; *str != '\0'; str++)
-	{
-		_putchar(*str);
-	}
-	_putchar('\n');
+	char *str;
+
+	str = "ALX!";
+	_puts(str);
+	return (0);
 }

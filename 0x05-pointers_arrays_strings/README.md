@@ -1,0 +1,1 @@
+My README for c pointers,arrays and strings

@@ -3,7 +3,7 @@
 /**
  * *_strcat -> this is a function strcat
  * @dest: first param
- * @arc: second param
+ * @src: second param
  * EReturn: a string
  */
 char *_strcat(char *dest, char *src)

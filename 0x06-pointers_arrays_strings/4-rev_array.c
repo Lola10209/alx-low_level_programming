@@ -6,7 +6,6 @@
  * @a: first parameter
  * @n: second param no. of elements
  *
- *
  */
 void reverse_array(int *a, int n)
 {

@@ -1,33 +1,23 @@
 #include "main.h"
 
 /**
- * leet -> a leet function
- * @x: param x
- * Return: a string
+ * leet -bconverts to leet format
+ * @s: string to be formatted
  *
- *
- *
- * 
+ * Return: formatted string
  */
-char *leet(char *x)
+char *lest(char *s)
 {
-	int a = 0, b, l = 5;
-	char tr[5] = {'A', 'E', 'O', 'T', 'L'};
-	char trw[5] = {'4', '3', '0', '7', '1'};
+	char options[] = {65, 52, 69, 51, 79, 48, 84, 55, 76, 49};
+	int i, j;
 
-	while (x[a])
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		b = 0;
-
-		while (b < 1)
+		for (j = 0; j < 10; j += 2)
 		{
-			if (x[a] == tr[b] || x[a] - 32 == tr[b])
-				x[a] = trw[b];
-			b++;
+			if (s[i] == options[j] || s[i] == options[j] + 32)
+				s[i] = options[j + 1];
 		}
-		a++;
 	}
-	return (x);
-
-
+	return (s);
 }

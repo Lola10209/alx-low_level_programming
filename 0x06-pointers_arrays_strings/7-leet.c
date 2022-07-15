@@ -6,7 +6,7 @@
  *
  * Return: formatted string
  */
-char *lest(char *s)
+char *leet(char *s)
 {
 	char options[] = {65, 52, 69, 51, 79, 48, 84, 55, 76, 49};
 	int i, j;

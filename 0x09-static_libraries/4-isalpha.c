@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _isalpha - checks if a character is an alphabet 
- * @c: the ASCII value of the character to be checked
- * Return: returns 0 if its a letter, 0 otherwise
+ * _isalpha - check for alphabet characters
+ * @c: This is an ASCII character
+ *
+ * Return: 0 if not an alphabet, 1 if alphabet
  */
 int _isalpha(int c)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 		return (1);
-	else
-		return (0);
+	return (0);
 }

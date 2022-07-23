@@ -8,7 +8,7 @@
  * Return: returns -15 if s1 < s2, 15 if s1 > s2
  * and returns 0 if they are equal
  */
-imt _strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i;
 

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * min - main function
+ * main - main function
  * @argc: number of actual arguments passed to main function
  * @argv: pointer to the first element in the array of arguements
  *

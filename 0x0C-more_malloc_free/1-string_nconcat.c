@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * dtring_noncat - concatenate the first n bytes of a string to another
+ * string_nconcat - concatenate the first n bytes of a string to another
  * @str1: pointer to the first string
  * @str2: pointer to the second string
  * @size: size of str2 to be concatenated

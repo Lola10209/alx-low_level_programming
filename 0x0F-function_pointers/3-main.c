@@ -10,7 +10,7 @@
  * @argv: an array of strings containing one command-line argument per string
  * Return: returns 0 (success)
  */
-int main(int argc, char *[])
+int main(int argc, char *argv[])
 {
 	int num1, num2, result;
 	int (*ptr)(int, int);
@@ -22,7 +22,7 @@ int main(int argc, char *[])
 	}
 
 	if (strlen(argv[2]) == 1 && (argv[2][0] == '+' || argv[2][0] == '-'
-		|| argv[2][0] == '*' || argv[2][0] == '/' || argv[2][0] == '%%'))
+		|| argv[2][0] == '*' || argv[2][0] == '/' || argv[2][0] == '%'))
 	{
 		if (atoi(argv[3]) == 0 && (argv[2][0] == '/' || argv[2][0] == '%'))
 		{

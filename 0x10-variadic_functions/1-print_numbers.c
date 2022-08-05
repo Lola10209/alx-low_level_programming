@@ -6,8 +6,8 @@
  * print_numbers - a function that prints a variable number of integers
  * @separator: the string to be printed between each integer
  * @n: the number of integers to be printed
- * Return: returns nothing
- */ 
+ * Return: returns nothing.
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list args;

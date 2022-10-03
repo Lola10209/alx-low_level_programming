@@ -3,6 +3,7 @@
 
 /**
  * main - check the code for Holberton School Students
+ * _strlen - returns the length of a string
  *
  * Return: Always EXIT_SUCCESS.
  */
